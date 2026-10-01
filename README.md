@@ -75,7 +75,7 @@ Scaling training across GPUs and nodes: parallelism strategies, orchestration, a
 
 Experiment tracking, pipelines, and model lifecycle management — from laptop to production. (12 entries)
 
-- [Aim](https://aimstack.io) — Open-source, self-hosted experiment tracker built to compare thousands of training runs. *(Apache-2.0 · ⭐ 6,272)*
+- [Aim](https://github.com/aimhubio/aim) — Open-source, self-hosted experiment tracker built to compare thousands of training runs. *(Apache-2.0 · ⭐ 6,272)*
 - [ClearML](https://clear.ml) — Open-source MLOps platform for experiment tracking, orchestration, and model management. *(Apache-2.0 · ⭐ 6,897)*
 - [Comet ML](https://www.comet.com) — Commercial SaaS platform for ML experiment tracking, model evaluation, and observability. *(proprietary)*
 - [DVC](https://dvc.org) — Git-based version control for datasets, models, and ML experiments. *(Apache-2.0 · ⭐ 15,897)*
@@ -98,7 +98,7 @@ Serving trained models behind low-latency APIs: inference servers and deployment
 - [NVIDIA Triton Inference Server](https://developer.nvidia.com/triton-inference-server) — High-performance inference server for deploying models from TensorFlow, PyTorch, ONNX, and more. *(BSD-3-Clause · ⭐ 11,033)*
 - [OpenVINO Model Server](https://docs.openvino.ai/2026/model-server/ovms_what_is_openvino_model_server.html) — High-performance C++ inference server for models optimized with Intel OpenVINO. *(Apache-2.0 · ⭐ 940)*
 - [Ray Serve](https://www.ray.io) — Scalable model-serving library for deploying online inference APIs on Ray. *(Apache-2.0 · ⭐ 43,959)*
-- [Seldon Core](https://www.seldon.io) — Kubernetes-native platform for deploying, scaling, and monitoring ML models in production (v2 is source-available under BSL-1.1). *(BSL-1.1 · ⭐ 4,782)*
+- [Seldon Core](https://docs.seldon.ai/seldon-core-2) — Kubernetes-native platform for deploying, scaling, and monitoring ML models in production (v2 is source-available under BSL-1.1). *(BSL-1.1 · ⭐ 4,782)*
 - [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) — Flexible, high-performance serving system for TensorFlow models in production. *(Apache-2.0 · ⭐ 6,364)*
 
 ## Feature Stores

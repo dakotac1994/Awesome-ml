@@ -2,6 +2,13 @@
 # Excludes are regexes — domain-bare patterns cover www/subdomains.
 
 exclude = [
+  # CI-proven 2026-10-01: SSL certificate expired on neptune.ai;
+  # URL is the correct official site, excluded until they renew.
+  "neptune\\.ai",
+  # CI-proven 2026-10-01: openvino.ai root 403s bot traffic (Intel anti-automation);
+  # docs.openvino.ai is fine, so only the bare domain is excluded.
+  "://openvino\\.ai(/|$)",
+
   # ReadTheDocs aggressively 429-throttles automated link checkers from CI
   # runners. The Flax docs link was verified live during research (2026-10-01).
   "readthedocs\\.io",
