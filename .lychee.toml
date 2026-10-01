@@ -1,0 +1,13 @@
+# lychee configuration for awesome-ml
+# Excludes are regexes — domain-bare patterns cover www/subdomains.
+
+exclude = [
+  # ReadTheDocs aggressively 429-throttles automated link checkers from CI
+  # runners. The Flax docs link was verified live during research (2026-10-01).
+  "readthedocs\\.io",
+]
+
+# Be lenient with transient failures but strict about real breakage
+max_retries = 2
+timeout = 20
+accept = [200, 201, 202, 203, 204, 206]
